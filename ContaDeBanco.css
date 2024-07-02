@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#account-details {
+    margin-bottom: 20px;
+}
+
+#account-details p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.actions {
+    margin-bottom: 20px;
+}
+
+.actions h2 {
+    margin-bottom: 10px;
+}
+
+.actions form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.actions form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.actions button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.actions button:hover {
+    background-color: #45a049;
+}
+
+#extrato-container {
+    margin-top: 20px;
+}
+
+#extrato-container h2 {
+    margin-bottom: 10px;
+}
+
+#transacoes {
+    list-style-type: none;
+    padding: 0;
+}
+
+#transacoes li {
+    margin: 5px 0;
+    padding: 5px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#cheque-especial {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#cheque-especial.negativo {
+    color: red;
+}

@@ -16,7 +16,7 @@ Este projeto simula uma conta bancária simples, permitindo que o usuário consu
 - **Feedback Visual**: Mensagens de confirmação e erro são exibidas para melhorar a experiência do usuário.
 - 
 ## 📸 GIF do Projeto
-![Demonstração do Projeto](./public/img/ContaDeBancoSimples.gif)
+![Demonstração do Projeto](./public/img/ContaBancoSimples.gif)
 
 ## 💡 Como Usar
 Clone este repositório para o seu computador:

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/public/img/dinheiro.png" type="image/png" />
+    <link rel="stylesheet" href="ContaDeBanco.css" />
+    <title>Minha Conta</title>
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Minha Conta</h1>
+      <div id="account-details">
+        <p id="saldo">Saldo: R$0.00</p>
+      </div>
+      <div class="actions">
+        <h2>Operações</h2>
+        <form id="deposit-form" onsubmit="depositar(event)">
+          <input
+            type="number"
+            id="deposit-value"
+            placeholder="Valor para depositar"
+            min="0"
+            step="0.01"
+            required
+          />
+          <button type="submit">Depositar</button>
+        </form>
+        <form id="withdraw-form" onsubmit="sacar(event)">
+          <input
+            type="number"
+            id="withdraw-value"
+            placeholder="Valor para sacar"
+            min="0"
+            step="0.01"
+            required
+          />
+          <button type="submit">Sacar</button>
+        </form>
+      </div>
+      <div id="extrato-container">
+        <h2>Extrato</h2>
+        <ul id="transacoes"></ul>
+      </div>
+      <p id="cheque-especial">Cheque Especial: R$0.00</p>
+    </section>
+
+    <script src="ContaDeBanco.js"></script>
+  </body>
+</html>

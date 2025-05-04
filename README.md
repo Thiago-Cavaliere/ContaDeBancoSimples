@@ -14,7 +14,11 @@ Este projeto simula uma conta bancária simples, permitindo que o usuário consu
 - **Retirada**: O usuário pode retirar um valor da conta, com checagem para garantir que o saldo seja suficiente.
 - **Validação de Entradas**: O sistema valida as entradas para garantir que os valores inseridos sejam números válidos e positivos.
 - **Feedback Visual**: Mensagens de confirmação e erro são exibidas para melhorar a experiência do usuário.
-- 
+  
+Link do projeto: <a href="https://conta-de-banco-simples-zeta.vercel.app/" target="_blank" rel="noopener noreferrer">
+  Acessar Projeto
+</a>
+  
 ## 📸 GIF do Projeto
 ![Demonstração do Projeto](./public/img/ContaBancoSimples.gif)
 
